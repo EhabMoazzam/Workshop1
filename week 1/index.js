@@ -106,7 +106,7 @@ var multiplyNumsExpress = function(x,y,z){
     return "new number is " + x * y * z
 }
 
-// convert the function expression to use arrow syntax
+// Convert the function expression to use arrow syntax
 const multiplyNumsArrow = (x,y,z) => { 
     return "new number is " + x * y * z
 }
@@ -114,5 +114,5 @@ const multiplyNumsArrow = (x,y,z) => {
 console.log("\nTask 5\n")
 console.log("Function Expression\n" + "var multiplyNumsExpress = function(x,y,z){\n" + "return 'new number is ' + x * y * z\n" + "}")
 console.log("\tFunction Express Result : " + multiplyNumsExpress(1,2,3) + "\n")
-console.log("Function Expression\n" + "const multiplyNumsArrow = (x,y,z) => { \n" + "return 'new number is ' + x * y * z\n" + "}")
+console.log("Convert the function expression to use arrow syntax\n" + "const multiplyNumsArrow = (x,y,z) => { \n" + "return 'new number is ' + x * y * z\n" + "}")
 console.log("\tArrow Syntax Result : " + multiplyNumsArrow(1,2,3))
