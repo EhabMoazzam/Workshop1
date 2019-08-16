@@ -2,7 +2,7 @@
 
 ## Run command
 
-- cd week1
+- cd week 1
 - npm install
 - node index.js
 
